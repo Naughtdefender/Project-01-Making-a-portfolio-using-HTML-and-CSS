@@ -26,7 +26,10 @@ hr {
 /**Links**/
 
 .link {
+  /* box-sizing: border-box; */
   text-decoration: none;
+  /* margin-top: 1rem;
+  margin-bottom:1rem; */
   padding: 0.5rem 1rem;
 }
 .link-primary {
