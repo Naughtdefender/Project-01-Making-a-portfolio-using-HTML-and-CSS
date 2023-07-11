@@ -6,7 +6,7 @@
   --off-white: #d1d5dbbb;
 }
 body {
-    margin: 0px;
+  margin: 0px;
   font-family: "Montserrat", sans-serif;
 }
 /**Container**/
@@ -26,20 +26,18 @@ hr {
 /**Links**/
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
   padding: 0.5rem 1rem;
 }
 .link-primary {
-    
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
 }
 .link-secondary {
   color: var(--primary-color);
-    border-radius: 0.5rem;
+  border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
-  
 }
 
 /**Look into BEM laming convention for CSS**/
@@ -50,7 +48,7 @@ hr {
   list-style: none;
 }
 
-.item-inline {
+.list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
 }
@@ -69,9 +67,12 @@ hr {
 .navigation .nav-pill {
   text-align: right;
 }
-.navigation .list {
+.navigation .link {
   color: white;
   text-decoration: none;
+}
+.navigation .link-active {
+  font-weight: bold;
 }
 
 /**Hero**/
@@ -95,28 +96,27 @@ hr {
 /**Section**/
 
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.ow{
-    background-color: var(--off-white);
+.ow {
+  background-color: var(--off-white);
 }
 
 /**Footer**/
 
 .footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    color: white;
-    text-align: center;
-    border-top-right-radius: 1rem;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 1rem;
 }
 .footer .link {
-    color: white;
+  color: white;
 }
-.footer ul{
-    
-    padding-inline-start: 0px;
+.footer ul {
+  padding-inline-start: 0px;
 }
