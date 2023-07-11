@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes For HTML Website building</title>
+    <link href="../styles.css" rel="stylesheet"/>  
+  </head>
+  <body>
+    <h1>Components of Library</h1>
+    <hr />
+
+    <h2>@Typography</h2>
+
+    <ul>
+      <li>Headings</li>
+      <h1>This Heading is in h1</h1>
+      <h2>This Heading is in h2</h2>
+      <h3>This Heading is in h3</h3>
+      <h4>This Heading is in h4</h4>
+      <h5>This Heading is in h5</h5>
+      <h6>This Heading is in h6</h6>
+
+      <small>//There are total 6 Font sizes in Heading</small>
+
+      <li>paragraphs</li>
+
+      <p>Let me show you the normal text. This is free flowing and will wrap at the end like paragraph.</p>
+
+      <p>This paragraph will have <strong>bold</strong> Text</p>
+
+      <li>small text</li>
+      <small>This is a small text</small>
+    </ul>
+    <hr />
+    <h2>@containers</h2>
+
+    <ul>
+      <li>fluid container</li>
+      <div class="container";>It is a fluid container it will go to the and of the page</div>
+      <li>center container</li>
+      <div class="container container-center";>It is a center container it will go to the center of the page</div>
+    </ul>
+    <hr />
+    <h2>@Links</h2>
+
+    <p>
+      In this we add some links in our wespage that open another site on
+      clicking
+    </p>
+    <li class="link"></li>
+    <a class="link link-primary"; href="/">Primary Link</a>
+    <a class="link link-secondary"; href="/">Secondary Link</a>
+
+    <!-- This is inline element when it not take a full row, the other is block element that take a full row. For example <h1> <header> etc. -->
+
+    <br />
+    <hr />
+    <h2>@lists</h2>
+
+    <h4>Unordered List</h4>
+    <small>This list will not have bullet</small>
+    <ul class="list-non-bullet">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <h4>Inline List</h4>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline listOne</li>
+      <li class="list-item-inline">Inline ItemTwo</li>
+      <li class="list-item-inline">Inline ItemThree</li>
+    </ul>
+    <h4>Ordered List</h4>
+    <ol>
+      <li>Ordered lists</li>
+      <li>Ordered ItemOne</li>
+      <li>Ordered ItemTwo</li>
+      <li>Ordered ItemThree</li>
+    </ol>
+    <h4>Reversed Ordered List</h4>
+    <ol reversed>
+      <li>List One</li>
+      <li>List Two</li>
+    </olreversed>
+    <hr />
+
+    <h2>@Navigation</h2>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmBrand</div>
+      <ul class="list-non-bullet nav-pill">
+        <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="/">About</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href=" /">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>@Header</h2>
+    <header class="hero">
+      <img class="hero-img" src="../images/img.svg" />
+      <h1 class="heading-hero">Kshitiz the <span class="heading-inverted">web developer</span></h1>
+    </header>
+    <hr />
+    <h2>@Section</h2>
+    <section class="section">
+      <div class="container container-center">
+    <h1>White Section</h1>
+    <p>On smaller brochure sites, how you organize your styles isn’t usually a big concern. You get in there, write some CSS, or maybe even some SASS. You compile it all into a single stylesheet with SASS’s production settings, and then you aggregate it to get all the stylesheets from modules into a nice tidy package.</p>
+  </div>
+  </section>
+    <section class="section ow">
+      <div class="container container-center">
+    
+    <h1>Off White Section</h1>
+    <p>However, when it comes to larger, more complex projects, how you organize your code is the key to efficiency in at least these three ways: it affects how long it takes you to write code, how much of that code you’ll have to write and how much loading your browser will have to do. This becomes especially important when you’re working with teams of themers, and when high performance is essential.</p>
+  </div>
+  </section>
+  <h2>@footer</h2>
+    <footer class="footer">
+      <div>some small heading in footer</div>
+      <ul class="social-links list-non-bullet" >
+        <li class="list-item-inline">
+          <a class="link" href="/">
+          SocialOne
+        </a>
+      </li>
+      
+      <li class="list-item-inline">
+        <a class="link" href="/">
+        SocialOne
+      </a>
+    </li>
+    <li class="list-item-inline">
+      <a class="link" href="/">
+      SocialOne
+    </a>
+  </li></ul>
+    </footer>  
+    <!-- This is a footer, there is no need to add a heading tag in footer -->
+  </body>
+</html>
+
+
+
