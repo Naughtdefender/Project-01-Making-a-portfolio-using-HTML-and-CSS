@@ -6,6 +6,7 @@
   --off-white: #d1d5dbbb;
 }
 body {
+    margin: 0px;
   font-family: "Montserrat", sans-serif;
 }
 /**Container**/
