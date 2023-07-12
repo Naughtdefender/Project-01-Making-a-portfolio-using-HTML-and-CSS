@@ -23,6 +23,18 @@ hr {
   margin: auto;
 }
 
+/* images */
+
+.img{
+  width: 30%;
+  height: auto;
+}
+
+.img-drone{
+  width: 25%;
+  height: auto;
+}
+
 /**Links**/
 
 .link {
