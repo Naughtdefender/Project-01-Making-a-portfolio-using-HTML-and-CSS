@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
 
 :root {
   --primary-color: #f59e0b;
@@ -7,7 +7,7 @@
 }
 body {
   margin: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 /**Container**/
 
