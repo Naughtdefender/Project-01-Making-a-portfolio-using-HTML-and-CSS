@@ -16,6 +16,7 @@ hr {
 }
 .container {
   padding: 0rem 1rem;
+  
 }
 
 .container-center {
@@ -75,6 +76,9 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  position: sticky;
+  top: 0px;
+  
 }
 .navigation .nav-brand {
   font-weight: bold;
