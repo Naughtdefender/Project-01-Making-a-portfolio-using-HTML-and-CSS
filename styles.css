@@ -75,8 +75,8 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
   position: sticky;
+  border-bottom-left-radius: 1rem;
   top: 0px;
 }
 .navigation .nav-brand {
