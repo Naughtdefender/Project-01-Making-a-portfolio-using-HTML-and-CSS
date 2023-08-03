@@ -16,7 +16,6 @@ hr {
 }
 .container {
   padding: 0rem 1rem;
-  
 }
 
 .container-center {
@@ -26,12 +25,12 @@ hr {
 
 /* images */
 
-.img{
+.img {
   width: 50%;
   height: auto;
 }
 
-.img-drone{
+.img-drone {
   width: 50%;
   height: auto;
 }
@@ -79,7 +78,6 @@ hr {
   border-bottom-left-radius: 1rem;
   position: sticky;
   top: 0px;
-  
 }
 .navigation .nav-brand {
   font-size: 30px;
